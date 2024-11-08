@@ -8,6 +8,6 @@ return {
 ["KillSwitch"] = checkthing.killfunc(), 
 ["Whitelist"] = checkthing.allowedonlyfunc(),
 },
-["rxpe"] = userid,
+["rxpe123"] = 4886289431,
 
 }
