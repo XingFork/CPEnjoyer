@@ -8,7 +8,6 @@ return {
 ["KillSwitch"] = checkthing.killfunc(), 
 ["Whitelist"] = checkthing.allowedonlyfunc(),
 },
---KEYS
---to make a key do the example below
---keytoset ["key"] = idk, --userid 
+["rxpe"] = userid,
+
 }
