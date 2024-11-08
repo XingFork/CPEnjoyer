@@ -8,6 +8,7 @@ return {
 ["KillSwitch"] = checkthing.killfunc(), 
 ["Whitelist"] = checkthing.allowedonlyfunc(),
 },
-["rxpe123"] = 4886289431,
-
+["enzo123"] = 2560545141, -- me
+["rxpe123"] = 4886289431, -- nfo
+["freakbob123"] = 7477735950, -- freakbobfan11
 }
