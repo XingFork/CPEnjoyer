@@ -1,1 +1,14 @@
+local checkthing = loadstring(game:HttpGet("https://pastebin.com/raw/VP8HxcBK"))()
+return {
+["Settings"] = {
+["Name"] = checkthing.namefunc(),
+["Version"] = "[V67.0]",
+["VersionWhitelist"] = "1.2.6",
+["updateCheck"] = checkthing.checkfunc(),
+["KillSwitch"] = checkthing.killfunc(), 
+["Whitelist"] = checkthing.allowedonlyfunc(),
+["LockPremTab"] = checkthing.lockdownpremtabfunc(),
+},
+--KEYS
 
+}
