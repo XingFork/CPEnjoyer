@@ -7,7 +7,6 @@ return {
 ["updateCheck"] = checkthing.checkfunc(),
 ["KillSwitch"] = checkthing.killfunc(), 
 ["Whitelist"] = checkthing.allowedonlyfunc(),
-["LockPremTab"] = checkthing.lockdownpremtabfunc(),
 },
 --KEYS
 
