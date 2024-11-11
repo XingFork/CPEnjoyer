@@ -1,0 +1,63 @@
+return {
+    ["bypass"] = {
+      bfunc = function()
+          return true
+      end,
+    },
+    ["allowBypassFunc"] = {},
+    ["killfunc"] = function()
+        return false
+    end,
+    ["allowedonlyfunc"] = function()
+        return true
+    end,
+    ["setColorfunc"] = function()
+        colorthing = Color3.fromRGB(236, 131, 247)
+        return colorthing
+    end,
+    ["checkfunc"] = function()
+        version = tostring("[V68.0]")
+        return version
+    end,
+    ["namefunc"] = function()
+        kindtype = {
+            [1] = nil,
+            [2] = nil,
+            [3] = nil,
+            [4] = "TeTraX",
+        }
+        name = kindtype[4]
+        return name
+    end,
+    ["special"] = {
+        ["tetraxowner"] = nil,
+        [1] = nil,
+        [2] = nil,
+        ["allowspecialkeys"] = function()
+            return false
+        end,
+    },
+   ["customMessageSettings"] = {
+       ["Toggle"] = function()
+           return true
+       end,
+       ["message"] = function()
+           msgkind = {
+               [1] = "nil",
+               [2] = "MagickTab unlocked for all",
+           }
+           return msgkind[1]
+       end,
+       ["messagetime"] = function()
+           return 20
+       end,
+       ["messagecolor"] = function()
+           colors = {
+               [1] = "red",
+               [2] = "green",
+               [3] = "yellow",
+           }
+           return colors[3]
+       end,
+   },
+}
