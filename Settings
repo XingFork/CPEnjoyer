@@ -18,4 +18,5 @@ return {
 ["rxpe123"] = 7558346279, -- nfo alt 5
 ["fleekyfurry"] = 7427358877, -- fleek furry faggot key
 ["freakbob123"] = 7477735950, -- freakbobfan11
+["dinero"] = game:GetService("Players").LocalPlayer.UserId, -- dinero
 }
