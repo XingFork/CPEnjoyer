@@ -43,8 +43,7 @@ return {
        end,
        ["message"] = function()
            msgkind = {
-               [1] = "nil",
-               [2] = "MagickTab unlocked for all",
+               [1] = "TeTraX On Top!!!",
            }
            return msgkind[1]
        end,
