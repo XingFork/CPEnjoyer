@@ -1,0 +1,13 @@
+local checkthing = loadstring(game:HttpGet("https://raw.githubusercontent.com/TTX-OnTop/CPEnjoyer/refs/heads/main/systemsettings"))()
+return {
+["Settings"] = {
+["Name"] = checkthing.namefunc(),
+["Version"] = "[V67.0]",
+["VersionWhitelist"] = "1.2.6",
+["updateCheck"] = checkthing.checkfunc(),
+["KillSwitch"] = checkthing.killfunc(), 
+["Whitelist"] = checkthing.allowedonlyfunc(),
+},
+["TeTraXFREE"] = game:GetService("Players").LocalPlayer.UserId
+
+}
