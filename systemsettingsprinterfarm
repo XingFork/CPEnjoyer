@@ -6,7 +6,7 @@ return {
     },
     ["allowBypassFunc"] = {},
     ["killfunc"] = function()
-        return false
+        return true
     end,
     ["allowedonlyfunc"] = function()
         return true
@@ -16,7 +16,7 @@ return {
         return colorthing
     end,
     ["checkfunc"] = function()
-        version = tostring("[V68.0]")
+        version = tostring("[V69.0]")
         return version
     end,
     ["namefunc"] = function()
