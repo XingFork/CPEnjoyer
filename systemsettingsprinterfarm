@@ -24,7 +24,7 @@ return {
             [1] = nil,
             [2] = nil,
             [3] = nil,
-            [4] = "TeTraX",
+            [4] = "TeTraXFREE (PAID IN DISCORD.GG/DHT)",
         }
         name = kindtype[4]
         return name
@@ -43,7 +43,7 @@ return {
        end,
        ["message"] = function()
            msgkind = {
-               [1] = "Printer Farm Loaded!",
+               [1] = "TeTraXFREE Loaded Join .gg/DHT",
            }
            return msgkind[1]
        end,
