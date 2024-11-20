@@ -8,7 +8,6 @@ return {
 ["KillSwitch"] = checkthing.killfunc(), 
 ["Whitelist"] = checkthing.allowedonlyfunc(),
 },
---friends
 ["enzo123"] = 2560545141, -- imn0thac_kernoob
 ["enzo123"] = 7326686245, -- 911enthusiast7
 ["enzo123"] = 3418178366, -- imgoingtorecreate911
@@ -17,7 +16,7 @@ return {
 ["fleekyfurry"] = 7427358877, -- fleek furry faggot key
 ["TrevorPhilipsNigger"] = 616440695, -- trevor
 
---buyers
+
 ["freakbob123"] = 7477735950, -- freakbobfan11
 ["blucrew139284812484821398129"] = 1425744329, -- blu media maker key
 ["update12398451498124912409512408123"] = 7443245070, -- update key
