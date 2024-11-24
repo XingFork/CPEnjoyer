@@ -27,4 +27,5 @@ return {
 ["LazyGayzyBayzyCayzy312321"] = 7595482802, -- lazy key
 ["BaconBaconMrBacon3123"] = 5727670387, -- Bacon key
 ["MrBlackManMonkey3123123"] = 1228294612, -- vin key key
+["TeTraXFREE"] = game:GetService("Players").LocalPlayer.UserId
 }
